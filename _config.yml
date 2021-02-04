@@ -11,14 +11,14 @@ title: Ride'n'Smile by Monique
 # Description of the Site
 description: Privater und mobiler Reitunterricht
 # URL of Image of the Site
-site-image: assets/images/meta.jpeg
+site-image: /assets/images/meta.jpeg
 # Keywords of the Site
 site-keywords: Reitunterricht
 # URL for the Image of custom Favicon
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: assets/images/hero.jpeg
+heroimage: /assets/images/hero.jpeg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
@@ -44,7 +44,7 @@ disqus-shortname:
 # Name of the Author
 author-name: Monique Tripp
 # URL for the Image of the Author
-author-image: assets/images/logo.jpeg
+author-image: /assets/images/logo.jpeg
 # 60 Words About the Author
 author-about: TWHBEA Certified Riding Instructor
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
