@@ -265,6 +265,9 @@ a.navbar-item.is-active {
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
+                .is-3by1 {
+                    padding-top: 50%;
+                }
             }
         }
     }
@@ -279,11 +282,6 @@ a.navbar-item.is-active {
         display: inline-table;
         &:hover {
             transform: scale(0.975);
-        }
-        .image {
-            .is-3by1 {
-                padding-top: 50%;
-            }
         }
     }
     .card {
