@@ -18,7 +18,7 @@ site-keywords: Reitunterricht
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: http://nebula.wsimg.com/65299ecfb4747967f55091675dc1b8c3?AccessKeyId=07D74F77CBA753076694&disposition=0&alloworigin=1
+heroimage: assets/images/hero.jpeg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.

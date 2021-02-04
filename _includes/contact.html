@@ -22,6 +22,13 @@
                 <i class="fas fa-envelope"></i>Sende mir eine Email
             </a>
             {% endunless %}
+            {% unless site.phone_number == %}
+            <a id="contact-button" href="tel:+{{site.phone_number}}"
+                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+                target="_blank">
+                <i class="fab fa-phone"></i>Ruf mich an
+            </a>
+            {% endunless %}
             {% unless site.twitter_username == %}
             <a id="contact-button" href="https://www.twitter.com/intent/tweet?screen_name={{site.twitter_username}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
