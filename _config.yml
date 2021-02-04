@@ -49,6 +49,13 @@ author-about: TWHBEA Certified Riding Instructor
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: 
 
+text: 'Du bist auf der Suche nach Reitunterricht für Dich oder deinem Kind?
+Dann bist Du bei uns genau richtig!
+Wir bieten Reitern/-innen ab einem Alter von 5 Jahren individuellen, auf die jeweiligen Bedürfnisse und Fähigkeiten abgestimmten, Unterricht.
+Der Unterricht findet bei uns in Einzelstunden statt.
+Bei fortgeschrittenen Reitern/-innen sind auch max. 3er Gruppen möglich.
+Da zum Umgang mit dem Pferd nicht nur das Reiten gehört, erlernen bereits unsere kleinsten auf spielerische Weise das Versorgen, Pflegen und Satteln der Pferde.'
+
 # SASS
 sass:
   sass_dir: _sass
