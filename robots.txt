@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: http://ridensmile-by-monique.com/sitemap.xml
