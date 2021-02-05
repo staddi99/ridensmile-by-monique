@@ -67,7 +67,6 @@ sass:
 plugins:
   - jekyll-admin
   - jekyll-feed
-  - jekyll-sitemap
 
 # Compress
 compress_html:
