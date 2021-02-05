@@ -1,24 +1,20 @@
 - name: European Championship for Tennessee Walking Horses
-  image: assets/images/image-01.jpeg
-  description: 
-- name: European Championship for Tennessee Walking Horses
-  image: assets/images/image-02.jpeg
-  description: 
+  images:
+    - image: assets/images/image-01.jpeg
+      description: Lukas mit Lady
+    - image: assets/images/image-02.jpeg
+      description: 
+    - image: assets/images/image-03.jpeg
+      description: 
 - name: Unsere Reitstunden auf dem Platz oder auch im Gelände
-  image: assets/images/image-03.jpeg
-  description: 
-- name: European Championship for Tennessee Walking Horses
-  image: assets/images/image-04.jpeg
-  description: 
-- name: Unsere Reitstunden auf dem Platz oder auch im Gelände
-  image: assets/images/image-05.jpeg
-  description: 
-- name: Unsere Reitstunden auf dem Platz oder auch im Gelände
-  image: assets/images/image-06.jpeg
-  description: 
-- name: Unsere Reitstunden auf dem Platz oder auch im Gelände
-  image: assets/images/image-07.jpeg
-  description: 
-- name: Unsere Reitstunden auf dem Platz oder auch im Gelände
-  image: assets/images/image-08.jpeg
-  description: 
+  images:
+    - image: assets/images/image-04.jpeg
+      description: 
+    - image: assets/images/image-05.jpeg
+      description: 
+    - image: assets/images/image-06.jpeg
+      description: 
+    - image: assets/images/image-07.jpeg
+      description: 
+    - image: assets/images/image-08.jpeg
+      description: 

@@ -9,8 +9,8 @@ layout: compress
 <body>
   {% include navbar.html %}
   {% include showcase.html %}
-  {% include pictures.html %}
   {% include about.html %}
+  {% include pictures.html %}
   {% include contact.html %}
   <!--Footer begins here-->
   {% include footer.html %}
@@ -18,22 +18,38 @@ layout: compress
 <script>
   window.addEventListener("scroll", function (event) {
     var scroll = this.scrollY;
+    var maxScroll = Math.max(
+      document.body.scrollHeight,
+      document.body.offsetHeight,
+      document.documentElement.clientHeight,
+      document.documentElement.scrollHeight,
+      document.documentElement.offsetHeight
+    ) - 1300;
     var item = document.getElementsByClassName('navbar-item');
-    /* console.log(scroll); */
+    console.log(scroll);
     if (scroll < 565) {
       item[1].classList.add('is-active');
       item[2].classList.remove('is-active');
       item[3].classList.remove('is-active');
+      item[4].classList.remove('is-active');
     }
     if (scroll > 565 && scroll < 1130) {
       item[1].classList.remove('is-active');
       item[2].classList.add('is-active');
       item[3].classList.remove('is-active');
+      item[4].classList.remove('is-active');
     }
-    if (scroll > 1130) {
+    if (scroll > 1130 && scroll < maxScroll) {
       item[1].classList.remove('is-active');
       item[2].classList.remove('is-active');
       item[3].classList.add('is-active');
+      item[4].classList.remove('is-active');
+    }
+    if (scroll > maxScroll) {
+      item[1].classList.remove('is-active');
+      item[2].classList.remove('is-active');
+      item[3].classList.remove('is-active');
+      item[4].classList.add('is-active');
     }
   });
 </script>
