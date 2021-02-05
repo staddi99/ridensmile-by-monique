@@ -73,9 +73,11 @@ a.navbar-item.is-active {
     .image {
         max-width: 20vmax;
         margin: auto;
+        box-shadow: 0 0 10px 5px #777777;
+        border-radius: 290486px;
 
         img {
-            border: 0.25rem dotted black;
+            transform: scale(0.8, 0.8);
         }
     }
 
@@ -234,8 +236,8 @@ a.navbar-item.is-active {
             }
 
             figure {
-                border: 1.5px solid white;
-                border-radius: 50rem;
+                // border: 1.5px solid white;
+                // border-radius: 50rem;
                 justify-content: center;
                 margin: auto;
                 transition: all 0.25s ease;
