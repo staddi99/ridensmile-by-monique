@@ -26,6 +26,8 @@
         {% endfor %}
       </div>
   </div>
+  <link rel="stylesheet" href="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/css/lightbox.min.css">
+  <script src="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/js/lightbox-plus-jquery.min.js"></script>
   <script>
     lightbox.option({
       'albumLabel': 'Bild %1 von %2'
