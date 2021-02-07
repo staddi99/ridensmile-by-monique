@@ -22,7 +22,7 @@ site-imprint: |
   An den Seen 4<br>                 
   63773 Goldbach<br>
   Tel. +49 (0)174-2698859<br>
-  ridensmile@yahoo.com
+  <a href="mailto:ridensmile@yahoo.com" class="has-text-grey-lighter" target="_blank" rel="noopener noreferrer">ridensmile@yahoo.com</a>
 # URL for the Image of custom Favicon
 favicon-url: 
 
