@@ -7,7 +7,7 @@ url: 'https://ridensmile-by-monique.com'
 baseurl: 
 
 # Title of the Site
-title: Ride'n'Smile by Monique
+title: RIDE N SMILE by Monique
 # Description of the Site
 subtitle: Privater und mobiler Reitunterricht
 # Description of the Site
@@ -16,6 +16,13 @@ description: Privater und mobiler Reitunterricht in Hösbach für große und kle
 site-image: /assets/images/logo.png
 # Keywords of the Site
 site-keywords: Reitunterricht, Reitstunden, Reiten, Pferde, Kinder, Ausritte, Hösbach, Aschaffenburg, Ridensmile
+# Text for imprint
+site-imprint: |
+  Monique Tripp<br>
+  An den Seen 4<br>                 
+  63773 Goldbach<br>
+  Tel. +49 (0)174-2698859<br>
+  ridensmile@yahoo.com
 # URL for the Image of custom Favicon
 favicon-url: 
 
@@ -53,7 +60,7 @@ author-about: TWHBEA Certified Riding Instructor
 author-url: 
 
 text: |
-  Du bist auf der Suche nach Reitunterricht für Dich oder deinem Kind?<br><br>
+  Du bist auf der Suche nach Reitunterricht für Dich oder Dein Kind?<br><br>
   Dann bist Du bei uns genau richtig!<br><br>
   Wir bieten Reitern/-innen ab einem Alter von 5 Jahren individuellen, auf die jeweiligen Bedürfnisse und Fähigkeiten abgestimmten, Unterricht.<br><br>
   Der Unterricht findet bei uns in Einzelstunden statt.<br><br>
