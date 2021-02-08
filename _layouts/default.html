@@ -15,6 +15,7 @@ layout: compress
   <!--Footer begins here-->
   {% include footer.html %}
 </body>
+<link rel="stylesheet" href="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/css/style.css?{{site.github.build_revision}}">
 <script src="https://kit.fontawesome.com/6a97161b76.js" crossorigin="anonymous"></script>
 <script>
   window.addEventListener("scroll", function (event) {

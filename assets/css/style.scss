@@ -268,10 +268,10 @@ a.navbar-item.is-active {
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
-                min-height: 210px;
+                min-height: 18em; // 210px;
                 display: flex;
                 flex-flow: column-reverse;
-                padding-top: 75% !important;
+                // padding-top: 75% !important;
             }
         }
     }

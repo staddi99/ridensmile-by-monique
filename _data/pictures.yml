@@ -1,20 +1,28 @@
 - name: European Championship for Tennessee Walking Horses
   images:
     - image: assets/images/image-01.jpeg
+      name: image-01
       description: 
     - image: assets/images/image-02.jpeg
+      name: image-02
       description: 
     - image: assets/images/image-03.jpeg
+      name: image-03
       description: 
 - name: Unsere Reitstunden auf dem Platz oder auch im Gelände
   images:
     - image: assets/images/image-04.jpeg
+      name: image-04
       description: 
     - image: assets/images/image-05.jpeg
+      name: image-05
       description: 
     - image: assets/images/image-06.jpeg
+      name: image-06
       description: 
     - image: assets/images/image-07.jpeg
+      name: image-07
       description: 
     - image: assets/images/image-08.jpeg
+      name: image-08
       description: 
