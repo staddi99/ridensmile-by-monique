@@ -9,9 +9,9 @@
             {% for picture in section.images %}
               <div class="column has-text-centered is-paddingless is-marginless is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
                 id="picture-card">
-                <a href="{{picture.image}}" data-lightbox="{{section.name}}" data-title="{{section.name}}{% unless picture.description == %} | {{picture.description}}{% endunless %}">
+                <a href="{{picture.image}}?{{site.github.build_revision}}" data-lightbox="{{section.name}}" data-title="{{section.name}}{% unless picture.description == %} | {{picture.description}}{% endunless %}">
                 <div class="card">
-                  <figure class="image is-3by1" style="background-image: url({{picture.image}});">
+                  <figure class="image is-3by1" style="background-image: url({{picture.image}}?{{site.github.build_revision}});">
                     {% unless picture.description == %}
                     <div class="card-content">
                       <p class="has-text-black has-text-weight-light content">{{ picture.description | truncate: 80}}</p>
@@ -26,8 +26,8 @@
         {% endfor %}
       </div>
   </div>
-  <link rel="stylesheet" href="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/css/lightbox.min.css">
-  <script src="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/js/lightbox-plus-jquery.min.js"></script>
+  <link rel="stylesheet" href="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/css/lightbox.min.css?{{site.github.build_revision}}">
+  <script src="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/js/lightbox-plus-jquery.min.js?{{site.github.build_revision}}"></script>
   <script>
     lightbox.option({
       'albumLabel': 'Bild %1 von %2'
