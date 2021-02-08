@@ -1,5 +1,5 @@
-<nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
-    <div class="container">
+<nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation" id="navbar" style="min-height: 3.25rem; font-size: 1em;">
+    <div class="container" style="flex-flow: row; justify-content: space-between; margin: 0 auto;">
 
         <!-- logo or branding image on left side -->
         <div class="navbar-brand">
@@ -30,6 +30,20 @@
         </div>
     </div>
 </nav>
+<style>
+    @media screen and (min-width: 1024px) {
+        #navbar .container {
+            max-width: 960px;
+            display: flex;
+        }
+    }
+    @media screen and (min-width: 1216px) {
+        #navbar .container {
+            max-width: 1152px;
+            display: flex;
+        }
+    }
+</style>
 <!-- Bulma Navbar JS -->
 <script>
     document.addEventListener('DOMContentLoaded', function () {
