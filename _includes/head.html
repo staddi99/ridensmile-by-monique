@@ -2,4 +2,6 @@
     {% include meta.html %}
     <title>{{site.title}}</title>
     <link rel="shortcut icon" href="{% if site.favicon-url %}{{site.favicon-url}}{% else %}{{ 'assets/images/logo.png' | absolute_url }}{% endif %}?{{site.github.build_revision}}" type="image/x-icon">
+
+    <style>img {max-width: 100%;}</style>
 </head>
