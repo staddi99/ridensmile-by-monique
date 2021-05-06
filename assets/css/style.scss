@@ -46,6 +46,8 @@ a.navbar-item.is-active {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 
     &::before {
+        max-height: 100vh;
+        min-width: 50vw;
         filter: blur(0.15rem);
         background-image: url({{site.heroimage}}?{{site.github.build_revision}});
         background-position: center;
@@ -88,7 +90,7 @@ a.navbar-item.is-active {
 }
 
 #contact {
-    #contact-button {
+    .contact-button {
         margin: 0.5rem auto;
         display: flex;
         justify-content: center;

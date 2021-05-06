@@ -5,6 +5,8 @@ markdown: kramdown
 url: 'https://ridensmile-by-monique.com'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
+# Language of the site
+lang: de
 
 # Title of the Site
 title: RIDE N SMILE by Monique

@@ -9,9 +9,9 @@
             {% for picture in section.images %}
               <div class="column has-text-centered is-paddingless is-marginless is-one-third-widescreen is-one-third-desktop is-one-fifth-fullhd is-one-third-tablet is-two-fifths-mobile is-three-quarters-touch"
                 id="picture-card">
-                <a href="{{picture.image}}?{{site.github.build_revision}}" data-lightbox="{{section.name}}" data-title="{{section.name}}{% unless picture.description == %} | {{picture.description}}{% endunless %}">
+                <a href="{{picture.image}}?{{site.github.build_revision}}" data-lightbox="{{section.name}}" data-title="{{section.name}}{% unless picture.description == %} | {{picture.description}}{% endunless %}" title="{{section.name}}{% unless picture.description == %} | {{picture.description}}{% endunless %}">
                 <div class="card">
-                  <figure id="{{picture.name}}" class="image lazy is-3by1">
+                  <figure id="{{picture.name}}" class="image lazy is-3by1" alt="{{section.name}}{% unless picture.description == %} | {{picture.description}}{% endunless %}">
                     {% unless picture.description == %}
                     <div class="card-content">
                       <p class="has-text-black has-text-weight-light content">{{ picture.description | truncate: 80}}</p>
@@ -41,7 +41,7 @@
       'albumLabel': 'Bild %1 von %2'
     });
     document.addEventListener("DOMContentLoaded", function() {
-      var lazyloadImages;    
+      var lazyloadImages;
 
       if ("IntersectionObserver" in window) {
         lazyloadImages = document.querySelectorAll(".lazy");
