@@ -1,75 +1,9 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css');
 @import "main.scss";
-
-#navbar {
-    opacity: 0.95;
-}
-
-.is-active {
-    font-weight: 600;
-}
-
-.navbar-dropdown {
-    border: none;
-    right: 0;
-    left: auto;
-}
-
-a.navbar-item:hover,
-.navbar-link:hover {
-    background-color: rgba($color: #fff, $alpha: 0.25) !important;
-    color: white !important;
-}
-
-a.navbar-item.is-active {
-    background-color: rgba($color: #fff, $alpha: 0.25) !important;
-    color: white !important;
-
-    &:hover {
-        background-color: rgba($color: #fff, $alpha: 0.25) !important;
-        color: grey;
-    }
-}
-
-.navbar-link:not(.is-arrowless)::after {
-    border-color: grey;
-}
-
-
-#hero {
-    background: rgb(0, 0, 0);
-    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
-
-    &::before {
-        max-height: 100vh;
-        min-width: 50vw;
-        filter: blur(0.15rem);
-        background-image: url({{site.heroimage}}?{{site.github.build_revision}});
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        position: absolute;
-        opacity: 0.25;
-        content: "";
-    }
-}
-.title {
-    margin: auto 0.75rem!important;
-    font-size: 2.7rem;
-}
-.subtitle {
-    letter-spacing: 0.25rem;
-}
 
 #about {
     .image {
@@ -204,11 +138,16 @@ a.navbar-item.is-active {
 
 
 #footer {
+    margin-top: 1rem;
+
     #backtotop {
-        transition: all 0.25s ease;
+        // transition: all 0.25s ease;
         width: 10rem;
-        padding: 0.25rem;
-        margin: auto auto 1rem auto;
+        // padding: 0.25rem;
+        padding: unset;
+        // margin: auto auto 1rem auto;
+        margin-top: unset;
+        flex-grow: unset;
 
         &:hover {
             transform: scale(1.05);
@@ -216,7 +155,7 @@ a.navbar-item.is-active {
     }
 
     .container {
-        margin: auto;
+        margin: 1rem auto auto auto;
         padding: 1.5rem;
         line-height: 1.25;
 
@@ -242,7 +181,6 @@ a.navbar-item.is-active {
                 // border-radius: 50rem;
                 justify-content: center;
                 margin: auto;
-                transition: all 0.25s ease;
                 &:hover{
                     transform: scale(1.15);
                 }
@@ -270,6 +208,9 @@ a.navbar-item.is-active {
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
+                box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+                -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+                -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
                 min-height: 18em; // 210px;
                 display: flex;
                 flex-flow: column-reverse;
@@ -279,19 +220,21 @@ a.navbar-item.is-active {
     }
 
     #picture-card {
-        -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+        // color: unset;
         transform: scale(0.95);
-        transition: all 0.5s ease;
-        margin-bottom: 0.5rem !important;
+        // transition: all 0.5s ease;
+        // margin-bottom: 0.5rem !important;
         display: inline-table;
+        border-radius: unset;
+        flex: unset;
         &:hover {
             transform: scale(0.975);
         }
     }
     .card {
-        transition: all 0.25s ease;
+        background-color: unset;
+        border-radius: unset;
+        box-shadow: unset;
         &:hover {
             background-color: rgba($color: #000000, $alpha: 0.90)!important;
         }

@@ -6,4 +6,5 @@
     <link rel="shortcut icon" href="{% if site.favicon-url %}{{site.favicon-url}}{% else %}{{ 'assets/images/logo.png' | absolute_url }}{% endif %}?{{site.github.build_revision}}" type="image/x-icon">
 
     <style>img {max-width: 100%;}</style>
+    <link rel="stylesheet" href="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/css/critical.css?{{site.github.build_revision}}" type="text/css" />
 </head>

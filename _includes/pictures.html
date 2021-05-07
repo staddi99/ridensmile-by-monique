@@ -35,7 +35,8 @@
       </div>
   </div>
   <link rel="stylesheet" href="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/css/lightbox.min.css?{{site.github.build_revision}}">
-  <script src="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/js/lightbox-plus-jquery.min.js?{{site.github.build_revision}}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/js/lightbox.min.js?{{site.github.build_revision}}"></script>
   <script>
     lightbox.option({
       'albumLabel': 'Bild %1 von %2'
