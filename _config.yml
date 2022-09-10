@@ -25,7 +25,6 @@ site-imprint: |
   An den Seen 4<br>                 
   63773 Goldbach<br>
   Tel. +49 (0)174-2698859<br>
-  <a href="mailto:ridensmile@yahoo.com" class="has-text-grey-lighter" target="_blank" rel="noopener noreferrer">ridensmile@yahoo.com</a>
 # URL for the Image of custom Favicon
 favicon-url: 
 
@@ -40,7 +39,7 @@ facebook_username: RideNSmilebyMonique
 instagram_username: ride_n_smile_by_monique
 twitter_username: 
 linkedin_username: 
-github_username:  
+github_username: 
 youtube_channel_id: 
 reddit_username: 
 behance_username: 
@@ -49,7 +48,7 @@ spotify_username:
 
 # Google Analytics
 google-analytics: 
-cliudflareinsights: 
+cloudflareinsights: 
 
 # Disqus
 disqus-shortname: 
@@ -78,7 +77,7 @@ sass:
 
 # Build settings
 plugins:
-  - jekyll-admin
+#  - jekyll-admin
   - jekyll-feed
   - jekyll-sitemap
 
