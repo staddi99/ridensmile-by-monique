@@ -1,0 +1,36 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{site.lang}}">
+{% include head.html %}
+
+<body>
+    <section class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-centered" id="page-section">
+                <div class="section">
+                    <h1 class="title is-1 is-uppercase has-text-weight-bold">
+                        {{page.title}}
+                    </h1>
+                    <hr class="has-background-black">
+                    <div class="content is-marginless">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<link rel="stylesheet" href="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/css/style.css?{{site.github.build_revision}}">
+<script src="https://kit.fontawesome.com/6a97161b76.js" crossorigin="anonymous"></script>
+
+{% unless site.cloudflareinsights == %}
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "{{site.cloudflareinsights}}"}'></script>
+<!-- End Cloudflare Web Analytics -->
+{% endunless %}
+
+</html>
